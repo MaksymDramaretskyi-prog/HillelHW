@@ -1,4 +1,5 @@
 //List of types
+
 // const arrTypeOf = [
   // "String", 10, 100n, true, null, undefined, Symbol(), {}, null,
 // ];
