@@ -1,16 +1,16 @@
-let userStringDato;
+let userStringData;
 let a;
 let b;
 let c;
 
 do {
-   userStringDato = prompt("Please enter THREE numbers!",[999]);
-} while( userStringDato.length !==3 || isNaN(userStringDato));
+   userStringData = prompt("Please enter THREE numbers!",[999]);
+} while( userStringData.length !==3 || isNaN(userStringData));
 
 
-a = +userStringDato[0];
-b = +userStringDato[1];
-c = +userStringDato[2];
+a = +userStringData[0];
+b = +userStringData[1];
+c = +userStringData[2];
 
 
 if (a === b && b === c){
