@@ -9,8 +9,8 @@ switch (true) {
     console.log('Empty String');
     break;
   case isNaN(+numOrStr):
-  console.log('Number is Ba_NaN');
-  break;
+    console.log('Number is Ba_NaN');
+    break;
   default:
     console.log('OK!');
 }
