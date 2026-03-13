@@ -8,9 +8,9 @@ function resultSumArr(arrDifferentTypes, arrNumber, resultSum){
     if(typeof arrDifferentTypes[i] === "number"){
       arrNumber += arrDifferentTypes[i];
       count++;
-      resultSum =  arrNumber / count;
     }
   };
+  resultSum =  arrNumber / count;
   console.log(resultSum);
 }
 
