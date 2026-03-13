@@ -1,20 +1,18 @@
 let stringWords = "Hello world";
-let toRemoveFirstLetter = "l";
-let toRemoveSecondLetter = "d";
+let arrLetters = prompt("Enter letters to delete").split("");
 
-function deletCharecter( stringWords, toRemoveFirstLetter, toRemoveSecondLetter) {
-  let resultString = [];
+function deletCharecter( stringWords, arrLetters) {
   let userResult = "";
-  resultString = stringWords.split("");
 
-  for(let i = 0; i < resultString.length; i++) {
-    if(resultString[i] !== toRemoveFirstLetter && resultString[i] !== toRemoveSecondLetter) {
-      userResult += resultString[i];
+  for(let i = 0; i < stringWords.length; i++) {
+   if(!arrLetters.includes(stringWords[i])) {
+      userResult += stringWords[i];
     }
   }
-  document.write(userResult);
+
+  console.log(userResult);
   return userResult;
 
 }
 
-deletCharecter(stringWords, toRemoveFirstLetter, toRemoveSecondLetter);
+deletCharecter(stringWords, arrLetters);
