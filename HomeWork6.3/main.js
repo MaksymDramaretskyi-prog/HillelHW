@@ -31,6 +31,6 @@ const teamListData = {
   }
 }
  
-teamListData.addContactToList("Dima", 100, "ojkfmeriofj3i", "+44 543 095 454");
+teamListData.addContactToList("Dima", 76, "Dima@gmail.com", "+44 543 095 454");
 console.log(teamListData.findJuniorDeveloper("Maxim"));
 console.log(teamListData);
