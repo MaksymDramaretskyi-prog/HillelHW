@@ -1,20 +1,8 @@
-const number = Number(prompt("Enter a positive integer:"));
+const arrData = [13, 45, 90, 34, 22, 22, 32, 78, 90, 78, 1, 6, 78, 93, 84, 83];
+console.log(arrData);
 
-if (!Number.isInteger(number) || number <= 1) {
-  console.log("Number must be an integer greater than 1.");
-} else {
-  let isPrime = true;
+const newArrData = arrData.filter(function(numbers) {
+  return numbers % 2 === 0;
+});
 
-  for (let i = 2; i < number; i++) {
-    if (number % i === 0) {
-      isPrime = false;
-      break;
-    }
-  }
-
-  if (isPrime) {
-    console.log(`${number} is a prime number.`);
-  } else {
-    console.log(`${number} is NOT a prime number.`);
-  }
-}
+console.log(newArrData);
