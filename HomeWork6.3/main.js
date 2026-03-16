@@ -2,6 +2,7 @@ const teamListData = {
 
   juniorDevelopers:[
     {
+      id: 1,
       name: "Jack",
       age: 19,
       city: "London",
@@ -11,6 +12,7 @@ const teamListData = {
       job: "developer",
     },
     {
+      id: 2,
       name: "Pol",
       age: 21,
       city: "Oslo",
@@ -30,7 +32,7 @@ const teamListData = {
     teamListData.juniorDevelopers.push({name, age, phone, email});
   }
 }
- 
+
 teamListData.addContactToList("Dima", 76, "Dima@gmail.com", "+44 543 095 454");
 console.log(teamListData.findJuniorDeveloper("Maxim"));
 console.log(teamListData);

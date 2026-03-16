@@ -15,3 +15,16 @@ function resultSumArr(arrDifferentTypes, arrNumber, resultSum){
 }
 
 resultSumArr(arrDifferentTypes, arrNumber, resultSum);
+
+
+
+
+
+
+const arr = [2, 3, null, 5, 'str', {}, '10', 9];
+
+const sumOfNumbers = arr.reduce(function (previousValue, currentValue) {
+  return typeof currentValue === 'number' ? previousValue + currentValue : previousValue
+}, 0)
+
+console.log(sumOfNumbers);
