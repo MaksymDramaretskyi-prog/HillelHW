@@ -1,8 +1,9 @@
 function getFun() {
-  let getValue= 0;
-  return function(a) {
-  
-    return getValue += a;
+  let sum = 0;
+
+  return function(number) {
+      sum += number;
+    return sum;
   }
 }
 const sumFunc =  getFun();
