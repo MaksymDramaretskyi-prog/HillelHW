@@ -5,7 +5,8 @@ let ladder = {
     this.steps++;
     return this
   },
-  down: function () { 
+  down: function () {
+    this.steps--;
     return this
   },
   showStep: function () {
