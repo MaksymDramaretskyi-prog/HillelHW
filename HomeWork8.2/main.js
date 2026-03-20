@@ -5,5 +5,3 @@ function name(a){
 }
 
 console.log(name(5)(2));
-
-
