@@ -1,17 +1,17 @@
 let ladder = {
-  steps: 0,
+  steps: "0",
 
   up: function () {
     this.steps++;
-    return this
+    return this;
   },
   down: function () {
     this.steps--;
-    return this
+    return this;
   },
   showStep: function () {
     console.log(this.steps);
-    return this
+    return this;
   }
 };
-ladder.up().up().down().showStep()
+ladder.up().up().down().showStep();
