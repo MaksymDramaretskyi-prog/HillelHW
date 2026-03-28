@@ -11,22 +11,16 @@
   box-sizing: border-box;
 }
 
-
-div {
-  padding: 40px ;
+td {
+  padding: 4px;
+  text-align: center;
+  background-color: beige;
 }
 
-h2 {
- color: black;
- font-size: 26px;
+tr:first-child td {
+  background-color: white;
 }
 
-button {
-  padding: 5px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.red {
- color: red;
+td:first-child {
+  background-color: white;
 }

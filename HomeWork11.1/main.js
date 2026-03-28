@@ -1,7 +1,16 @@
-const bannerText = document.querySelector("h2")
-const bannerButton = document.querySelector("button");
+let table = document.getElementById("table");
 
-bannerButton.addEventListener("click", function(){
-  bannerText.classList.toggle("red")
-  console.log("clikk")
-});
+
+for(let i = 1; i <= 10; i++){
+    let tr = document.createElement("tr");
+   
+
+    for(let j = 1; j <= 10; j++){
+      let td = document.createElement("td")
+      td.textContent = i * j
+      
+      tr.appendChild(td)
+    }
+    table.appendChild(tr)
+}
+
