@@ -1,6 +1,7 @@
 let table = document.getElementById("table");
 
 
+
 for(let i = 1; i <= 10; i++){
     let tr = document.createElement("tr");
    
@@ -13,4 +14,3 @@ for(let i = 1; i <= 10; i++){
     }
     table.appendChild(tr)
 }
-

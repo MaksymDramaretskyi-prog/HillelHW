@@ -17,4 +17,4 @@ const images = [
 const img = document.querySelector("img");
 
 const randomIndex = Math.floor(Math.random() * images.length);
-img.src = images[randomIndex];
+img.setAttribute("src", images[randomIndex]);
