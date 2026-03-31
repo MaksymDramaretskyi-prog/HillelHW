@@ -21,6 +21,6 @@ goBtn.addEventListener("click", () => {
   if (url) {
     window.location.href = url;
   } else {
-    alert("Сначала введи ссылку");
+    alert("Enter the link first");
   }
 });
