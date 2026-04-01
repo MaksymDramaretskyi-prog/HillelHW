@@ -9,9 +9,12 @@ form.addEventListener("submit", (event) => {
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   const li = document.createElement("li"); 
+
+  li.textContent = input.value;
   li.appendChild(checkbox);
 
   list.appendChild(li);
+
   input.value = "";
 });
 
