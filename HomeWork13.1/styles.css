@@ -64,7 +64,7 @@
   color: red;
   font-size: 12px;
   display: none;
-  margin-bottom: 4px; /* 👈 отступ вниз */
+  margin-bottom: 4px;
 }
 
 .error-message.active {
