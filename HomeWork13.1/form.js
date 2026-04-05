@@ -90,29 +90,6 @@ form.addEventListener("submit", (event) => {
 });
 
 
-  nameInput.addEventListener("focus", () => {
-    if (nameInput.style.border === "2px solid red") {
-      nameInput.value = "";
-    }
-  });
-
-  messageTextarea.addEventListener("focus", () => {
-    if (messageTextarea.style.border === "2px solid red") {
-      messageTextarea.value = "";
-    }
-  });
-
-  phoneInput.addEventListener("focus",()=> {
-    if (phoneInput.style.border === "2px solid red") {
-      phoneInput.value = "";
-    }
-  });
-
-  emailInput.addEventListener("focus",()=> {
-    if (emailInput.style.border === "2px solid red") {
-      emailInput.value = "";
-    }
-  });
 
 const showError = (input, message) => {
   const error = input.parentElement.querySelector(".error-message");
