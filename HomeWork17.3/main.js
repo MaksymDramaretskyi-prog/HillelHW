@@ -1,21 +1,20 @@
 class BankAccount {
   constructor(balance) {
-    this.balance = balance;
+    this._balance = balance;
   }
 
   getBalance() {
-    return this.balance;
+    return this._balance;
   }
 
   deposit(amount) {
-    this.balance += amount;
+    this._balance += amount;
   }
 
   withdraw(amount) {
-    this.balance -= amount;
+    this._balance -= amount;
   }
 }
-
 const account1 = new BankAccount(1000);
 
 console.log(account1.getBalance());
